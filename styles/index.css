@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica;
+}
+/* Header */
+#image{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+}
+.header{
+    text-align: center;
+    margin-top: -350px;
+    color: white;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    padding: 10px;
+    margin-left: 5px;
+}

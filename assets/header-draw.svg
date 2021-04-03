@@ -1,0 +1,15 @@
+<svg width="800" height="340" xmlns="http://www.w3.org/2000/svg" stroke="null" style="vector-effect: non-scaling-stroke;">
+
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <rect stroke="#333333" style="vector-effect: non-scaling-stroke;" stroke-width="0" canvas-opacity="1" canvas="#191919" id="svg_1" height="126" width="830.11702" y="-3.5" x="-1.49997" opacity="undefined" fill="#fff"/>
+  <path stroke="#333333" id="svg_2" d="m88.5,98.5" opacity="NaN" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="null" fill="#fff"/>
+  <polyline stroke="#333333" stroke-linecap="round" id="svg_6" points="69.5,69.5 70.5,69.5 " opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="none"/>
+  <path stroke="#333333" d="m118.5,59.5c4,0 12,0 21,0c12,0 24.89546,3.1977 38,10c13.89236,7.21124 21.14204,11.81367 33,21c10.12373,7.84283 14,11 14,12l1,0l0,-1" id="svg_7" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="none"/>
+  <rect stroke="#333333" id="svg_12" height="237.99999" width="816.00003" y="-49.5" x="-6.5" opacity="NaN" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <rect stroke="#333333" transform="rotate(10 410.84289550781307,243.5482482910157) " id="svg_15" height="49" width="864.3189" y="219.04825" x="-21.31656" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <rect id="svg_16" height="51" width="374" y="187.5" x="280.5" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="#333333" fill="#000000"/>
+  <rect transform="rotate(5.925289154052734 688.500000000001,226.00000000000009) " stroke="#333333" id="svg_18" height="107" width="506" y="172.5" x="435.5" opacity="NaN" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+  <rect stroke="#333333" id="svg_19" height="147" width="331" y="66.5" x="155.5" opacity="undefined" fill-opacity="null" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#000000"/>
+ </g>
+</svg>
