@@ -26,9 +26,6 @@ html, body{
 }
 .btn-container{
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    
 }
 .button{
     border: none;
@@ -36,12 +33,38 @@ html, body{
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 40px;
+}
+.button:not(#btn-sec1){
+    margin-left: 30px;
 }
 .button:hover{
     background-color: rgba(185, 176, 176, 0.918)
 }
-
+/* Responsivity Header */
+@media screen and (max-width: 750px){
+    .header{
+        margin-top: -320px;
+    }
+    .btn-container{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        justify-content: center;
+        grid-gap: 10px;
+    }
+    .button{
+        margin-left: 30px;
+    }
+    .button:not(#btn1-sec1, #btn-sec1){
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .header{
+        text-align: start;
+        margin-left: 15px;
+    }
+}
 /* First Section Style */
 
 .sec-container1 {
@@ -87,6 +110,27 @@ html, body{
 .d-check2{
     margin-left: 30px;
 }
+@media screen and (max-width: 500px){
+    .input-f{
+        width: 300px;
+    }
+}
+
+/* Responsivity of first section */
+@media screen and (max-width: 700px){
+    .sec-container1{
+        margin-top: 50px;
+    }
+    #image{
+        width: 100%;
+    }
+
+    .sec-container1{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* First and second line Style*/
 .lines{
     height: 10vh;
@@ -108,18 +152,13 @@ html, body{
     font-size: 18px;
     margin: 5px;
 }
-/* Responsivity of first section */
-@media screen and (max-width: 200px){
-
-}
-
 
 /*  Second Section Style (Cards) */
 #sec-container2{
     display: grid;
-    grid-template-columns: 12.5% 12.5% 12.5% 12.5%;
+    grid-template-columns: 10% 10% 10% 10%;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 40px;
     justify-content:center;
 
 }
@@ -153,6 +192,46 @@ html, body{
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 1150px){
+    #sec-container2{
+        grid-gap: 85px;
+    }
+    .btn-card{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #description{
+        display: none;
+    }
+    #sec-container2{
+        grid-template-columns: 30% 30%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    }
+    .card{
+        margin-right: 10px;
+    }
+    .btn-card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #sec-container2{
+        grid-template-columns: 50%;
+        grid-gap: 10px;
+    }
+    .card{
+        display: flex;
+    }
+    .card-txt{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
 
 /* Third Section Style */
 .sec-container3{
@@ -161,9 +240,8 @@ html, body{
     flex-direction: column;
 }
 .ctn-inputs{
-    width: 50%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 20px;
 }
 .btn{
@@ -186,6 +264,23 @@ html, body{
 }
 .btn:hover{
     background-color: rgba(0, 0, 0, 0.1);
+}
+.div-input{
+    margin-left: 50px;
+}
+/* Responsivity of third section */
+@media screen and (max-width: 760px){
+    .div-input {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 700px){
+    .ctn-inputs{
+        flex-direction: column;
+    }
+    .div-input{
+        margin-left: 0;
+    }
 }
 /* Footer Style */
 .footer{

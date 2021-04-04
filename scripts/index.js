@@ -40,12 +40,12 @@ function show({products}){
         <img class="img" src=${product.image}>`
         output +=`<div class="card-txt">
         <p class="card-p1">${product.name}</p>
-        <p class="card-p2">${product.description}</p>
+        <p id="description" class="card-p2">${product.description}</p>
         <p class="card-p2">De: R$${product.oldPrice}</p>
         <h3>Por: ${product.price}</h3>
         <p class="card-p2">ou ${product.installments.count}x de R$${product.installments.value}</p>
-        </div>
         <button class="btns-card">Comprar</button>
+        </div>
         </div>`
     }
 
