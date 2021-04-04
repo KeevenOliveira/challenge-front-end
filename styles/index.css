@@ -34,7 +34,7 @@ html, body{
 
 /* First Section Style */
 
-.sec-container1{
+.sec-container1 {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ html, body{
 .txt-input{
     margin: 0;
 }
-/* First line Style*/
+/* First and second line Style*/
 .lines{
     height: 10vh;
     display: flex;
@@ -69,6 +69,7 @@ html, body{
 }
 .ctn{
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 50%;
 }
@@ -99,4 +100,17 @@ html, body{
 }
 .btn-card{
     width: 100%;
+}
+
+/* Third Section Style */
+.sec-container3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ctn-inputs{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
