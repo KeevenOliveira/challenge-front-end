@@ -37,16 +37,27 @@
 
         <div class="form">
             <p class="form-p">Seu nome:</p>
-            <input type="text">
+            <input class="input-f" type="text">
+
             <p class="form-p">E-mail:</p>
-            <input type="email">
+            <input class="input-f" type="email">
+
             <p class="form-p">CPF:</p>
-            <input type="number">
+            <input id="cpf" class="input-f" type="number">
+
+            <div id="hello">
+
+            </div>
+
             <div class="inputs">
-                <input class="input" type="checkbox">
-                <p class="txt-input">Masculino</p>
-                <input class="input" type="checkbox">
-                <p class="txt-input">Feminino</p>
+                <div>
+                    <input id="radio1" name="opt" type="radio">
+                    <label for="radio1" class="lbl-input">Masculino</label>
+                </div>
+                <div class="d-check2">
+                    <input  id="radio2" name="opt"  type="radio">
+                    <label for="radio2" class="lbl-input">Feminino</label>
+                </div>
             </div>
             <button class="form-btn">Enviar</button>     
         </div>
@@ -87,13 +98,13 @@
             <p>Quer que seus amigos ganhem a lista personalizada deles? Preencha agora!</p>
             <div class="ctn-inputs">
                 <div>
-                    <p>Nome do seu amigo:</p>
-                    <input class="input-sec1" type="text">
+                    <p class="txt-sec3">Nome do seu amigo:</p>
+                    <input class="input-sec3" type="text">
                 </div>
 
                 <div class="div-input">
-                    <p>E-mail:</p>
-                    <input class="input-sec2" type="email">
+                    <p class="txt-sec3">E-mail:</p>
+                    <input class="input-sec3" type="email">
                 </div>
             </div>
             <button class="btn">Enviar agora</button>

@@ -1,3 +1,18 @@
+
+// To limit the CPF input
+function limitTotal (evt) {
+    var input = evt.target;
+    var value = input.value;
+
+    if (value.length <= 11) {
+        return;
+    }
+
+    input.value = input.value.substr(0, 11); 
+}
+document.getElementById('cpf').addEventListener('input', limitTotal)
+
+
 const card = document.getElementById("sec-container2");
 
 async function getContent(){
