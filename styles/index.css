@@ -34,7 +34,7 @@ html, body{
     padding-left: 30px;
     padding-right: 30px;
 }
-.button:not(#btn-sec1){
+.button{
     margin-left: 30px;
 }
 .button:hover{
@@ -63,6 +63,11 @@ html, body{
     .header{
         text-align: start;
         margin-left: 15px;
+    }
+}
+@media screen and (max-width: 400px){
+    .button{
+        margin-left: 10px;
     }
 }
 /* First Section Style */
