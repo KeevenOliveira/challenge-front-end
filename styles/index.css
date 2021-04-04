@@ -58,3 +58,45 @@ html, body{
 .form-btn{
     width: 100%;
 }
+.txt-input{
+    margin: 0;
+}
+/* First line Style*/
+.lines{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.ctn{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.line{
+    width: 30%;
+    height: 0;
+    border: 1px solid #000;
+}
+.line-p{
+    font-size: 18px;
+    margin: 5px;
+}
+
+/*  Second Section Style (Cards) */
+.sec-container2{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    justify-content:center;
+
+}
+.card{
+    width: 200px;
+}
+.img{
+    width: 200px;
+}
+.btn-card{
+    width: 100%;
+}
