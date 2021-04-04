@@ -84,22 +84,27 @@ html, body{
 }
 
 /*  Second Section Style (Cards) */
-.sec-container2{
+#sec-container2{
     display: grid;
-    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5%;
     grid-template-rows: 1fr 1fr;
     grid-gap: 5px;
     justify-content:center;
 
 }
 .card{
-    width: 200px;
+    width: 150px;
 }
-.img{
-    width: 200px;
+.btns-card{
+    width: 100%;
 }
 .btn-card{
-    width: 100%;
+    margin-top: 20px;
+    width: 15%;
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
 }
 
 /* Third Section Style */
